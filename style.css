@@ -451,6 +451,32 @@ Not Found
 
     font-size:18px;
 
+}.header-content{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.header-logo{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+.header-content h1{
+
+    font-size:26px;
+
+}
+
+.header-content p{
+
+    font-size:15px;
+
 }
 
 /*====================================
@@ -699,5 +725,51 @@ footer{
     padding:20px;
 
 }
+
+/*============================
+Top Header
+=============================*/
+
+.top-header{
+
+    background:linear-gradient(135deg,#0057c8,#1d7dff);
+
+    padding:18px 0;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+}
+
+.header-content{
+
+    width:95%;
+    max-width:1000px;
+
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+    justify-content:center;
+
+}
+
+.header-logo{
+
+    width:60px;
+    height:60px;
+
+}
+
+.header-content h1{
+
+    font-size:28px;
+
+}
+
+.header-content p{
+
+    font-size:15px;
 
 }
